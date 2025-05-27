@@ -1,0 +1,98 @@
+.box{
+    width: 153px;
+    height: 91px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgb(196, 196, 196);  
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.orange{
+    position: relative;
+    top: auto;
+}
+.background-container{
+    background-image: url('Long.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 926px;
+    width: 428px;
+    position: absolute;
+    left: 550px;
+}
+.Grounded{
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+    padding: 0px;
+}
+
+.message{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 123.529% */
+    width: 356px;
+    height: 263px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 100px;
+}
+.button{
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 153px;
+    height: 91px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: -50px;
+    left: 400px;
+    border-color: white;
+}
+p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.yellowbox{
+    width: 170px;
+    height: 225px;
+    transform: rotate(-0.16deg);
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 16px;
+    background: rgb(252, 248, 248) 50% / cover no-repeat;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    }
+.yellow{
+    width: 155px;
+    height: 199px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 163px;
+    right: 58px;
+}

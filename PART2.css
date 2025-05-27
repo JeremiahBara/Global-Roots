@@ -1,0 +1,104 @@
+
+.box{
+    width: 345px;
+    height: 234px;
+    flex-shrink: 0;
+}
+.orange{
+    position: relative;
+    top: auto;
+}
+.background-container{
+    background-image: url('Groundhog.jpg');
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 926px;
+    width: 428px;
+    position: absolute;
+    left: 550px;
+}
+.background-container1{
+    position: absolute;
+    display: flex;
+    background-position: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 926px;
+    width: 428px;
+    position: absolute;
+    left: 23px;
+    bottom: -100px;
+}
+.Grounded{
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+    padding: 0px;
+}
+
+.message{
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 303px;
+    height: 267px;
+    text-align: center;
+    padding-left: 21px;
+    padding-right: 21px;
+    width: 303px;
+    height: 207px;
+    flex-shrink: 0;
+    top: 250px;
+    position: absolute;
+}
+.button{
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 153px;
+    height: 91px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: -50px;
+    border-color: white;
+}
+.button1{
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.90);
+    width: 153px;
+    height: 91px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: -50px;
+    border-color: white;
+}
+p{
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
